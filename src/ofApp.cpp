@@ -1,3 +1,4 @@
+
 #include "ofApp.h"
 
 
@@ -9,10 +10,9 @@ void ofApp::setup(){
 
     vidGrabber.setVerbose(true);
     vidGrabber.initGrabber(320,240);
-
     vidPlayer.loadMovie("fingers.mov");
     vidPlayer.play();
-
+ 
     colorImg.allocate(camWidth,camHeight);
 	grayImage.allocate(camWidth,camHeight);
 	grayBg.allocate(camWidth,camHeight);
