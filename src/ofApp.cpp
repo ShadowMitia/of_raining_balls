@@ -26,6 +26,20 @@ void ofApp::setup(){
 	box2d.setGravity(0, 10);
 	box2d.createGround();
 	box2d.setFPS(60.0);
+<<<<<<< HEAD
+=======
+/*
+		// lets add a contour to start
+	for (int i=0; i<nPts; i+=2) {
+		float x = pts[i];
+		float y = pts[i+1];
+		edgeLine.addVertex(x, y);
+	}
+
+    edgeLine.setPhysics(0.0, 0.5, 0.5);
+	edgeLine.create(box2d.getWorld());
+*/
+>>>>>>> 6ff35df81ffd88a44658b1cbe90052ee1dc801ec
 }
 
 //--------------------------------------------------------------
